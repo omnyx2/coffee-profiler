@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg id="a" xmlns="http://www.w3.org/2000/svg"
+    xmlns:test="http://www.example.com/2014/test" width="40" height="40">
+  <circle id="target" cx="12" cy="12" r="10" stroke="#444" stroke-width="2"
+      fill="none" test:foo="Foo value"/>
+</svg>
+
+<script type="text/javascript">
+  var ns = 'http://www.example.com/2014/test';
+  var circle = document.getElementById( 'a' );
+  console.log('Attribute value: ' + circle.getAttributeNS('xmlns'));
+</script>
+<path fill="rgb(110, 64, 170)" fill-opacity="0" d="M9.45019113342041e-15,-154.33333333333334A154.33333333333334,154.33333333333334,0,1,1,-9.45019113342041e-15,154.33333333333334A154.33333333333334,154.33333333333334,0,1,1,9.45019113342041e-15,-154.33333333333334Z" style="cursor: pointer;"><title>flare
+  0</title></path>
+</body>
+</html>

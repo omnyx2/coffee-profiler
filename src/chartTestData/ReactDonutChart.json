@@ -1,0 +1,206 @@
+{
+  "name": "flare",
+  "children": [
+   {
+    "name": "꽃 향 : Floral",
+    "children": [
+     {"name": "BLACK TEA", "value": 100 },
+     {
+      "name": "FLORAL",
+      "children":[
+        {"name": "CHAMOMILE", "value": 100},
+        {"name": "ROSE", "value": 100},
+        {"name": "JASMINE", "value": 100}
+       ]
+     }
+    ]
+   },
+   {
+    "name": "과 일 : Fruit",
+    "children": [
+     {
+      "name": "BERRY",
+      "children": [
+       {"name": "BLACKBERRY", "value": 100},
+       {"name": "RASPBERRY", "value": 100},
+       {"name": "BLUEBERRY", "value": 100},
+       {"name": "STRAWBERRY", "value": 100}
+      ]
+     },
+     {
+      "name": "DRIED FRUIT",
+      "children": [
+       {"name": "RAISIN", "value": 100},
+       {"name": "PRUNE", "value": 100}
+      ]
+     },
+     {
+      "name": "OTHER FRUIT",
+      "children": [
+       {"name": "COCONUT", "value": 100},
+       {"name": "CHERRY", "value": 100},
+       {"name": "POMEGRANATE", "value": 100}
+      ]
+     },
+     {
+      "name": "CITRUS FRUIT",
+      "children": [
+       {"name": "GRAPEFRUIT", "value": 100},
+       {"name": "GRANGE", "value": 100},
+       {"name": "LEMON", "value": 100},
+       {"name": "LIME", "value": 100}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "신 맛 & 발 효 취 : SOUR/FERMENTED",
+    "children": [
+     {
+      "name": "SOUR",
+      "children": [
+       {"name": "SOUR AROMATICS", "value": 100},
+       {"name": "ACETIC ACID", "value": 100},
+       {"name": "BUTYRIC ACID", "value": 100},
+       {"name": "ISOVALERIC ACID", "value": 100},
+       {"name": "CITRIC ACID", "value": 100},
+       {"name": "MALIC ACID", "value": 100}
+      ]
+     },
+     {
+      "name": "ALCOHOL/FERMENTED",
+      "children": [
+       {"name": "WINEY", "value": 100},
+       {"name": "WHISKEY", "value": 100},
+       {"name": "FERMENTED", "value": 100},
+       {"name": "OVERRIPE", "value": 100}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "풀 & 야 채 : GREEN/VEGETATIVE",
+    "children": [
+     {"name": "OLIVE OIL", "value": 100},
+     {"name": "RAW", "value": 100},
+     {"name": "GREEN/VEGETATIVE", 
+      "children": [
+        {"name": "UNDER-RIPE", "value": 100},
+        {"name": "PREAPOD", "value": 100},
+        {"name": "FRESH", "value": 100},
+        {"name": "DARK GREEN", "value": 100},
+        {"name": "VEGETATIVE", "value": 100},
+        {"name": "HAY-LIKE", "value": 100},
+        {"name": "HERB-LIKE", "value": 100}
+      ]},
+     {"name": "BEANY", "value": 100}
+    ]
+   },
+   {
+    "name": "기 타 : OTHER",
+    "children": [
+      {
+        "name": "PAPERY/MUSTY", 
+        "children": [
+          {"name": "PHENOLIC", "value": 100},
+          {"name": "MEATY BROTHY", "value": 100},
+          {"name": "ANIMALIC", "value": 100},
+          {"name": "MUSTY/EARTHY", "value": 100},
+          {"name": "MUSTY/DUSTY", "value": 100},
+          {"name": "MUSTY/DAMP", "value": 100},
+          {"name": "WOODY", "value": 100},
+          {"name": "PAPERY", "value": 100},
+          {"name": "CARDBOARD", "value": 100},
+          {"name": "STALE", "value": 100}
+      ]},
+      {
+        "name": "CHEMICAL",
+        "children": [
+          {"name": "RUBBER", "value": 100},
+          {"name": "SKUNKY", "value": 100},
+          {"name": "PETROLEUM", "value": 100},
+          {"name": "MEDICINAL", "value": 100},
+          {"name": "SALTY", "value": 100},
+          {"name": "BITTER", "value": 100}
+        ]
+      }
+    ]
+   },
+   {
+    "name": "구 운 : ROASTED",
+    "children": [
+     {"name": "TABACCO", "value": 100},
+     {"name": "PIPE TOBACCO", "value": 100},
+     {
+        "name": "CEREAL", 
+        "children": [
+          {"name": "MALT", "value": 100},
+          {"name": "GRAIN", "value": 100}
+        ]},
+     {
+        "name": "BURNT", 
+        "children": [
+          {"name": "BROWN, ROAST", "value": 100},
+          {"name": "SMOKY", "value": 100},
+          {"name": "ASHY", "value": 100},
+          {"name": "ACRID", "value": 100}
+        ]
+      }
+    ]
+   },
+   {
+    "name": "향 신 료 : SPICES",
+    "children": [
+      {"name": "PUNGENT", "value": 100},
+      {"name": "PEPPER", "value": 100},
+      {"name": "BROWN SPICE", 
+        "children": [
+          {"name": "CLOVE", "value": 100},
+          {"name": "CINNAMON", "value": 100},
+          {"name": "NUTMEG", "value": 100},
+          {"name": "ANISE", "value": 100}
+        ]
+      }
+    ]
+     
+   },
+   {
+    "name": "고 소 함 & 코 코 아 : NUTTY/COCOA",
+    "children": [
+      {
+        "name": "COCOA", 
+        "children": [
+          {"name": "DARK CHOCOLATE", "value": 100},
+          {"name": "CHOCOLATE", "value": 100}
+        ]
+      },
+      {
+        "name": "NUTTY", 
+        "children": [
+          {"name": "ALMOND", "value": 100},
+          {"name": "HAZELNUT", "value": 100},
+          {"name": "PEANUTS", "value": 100}
+        ]
+      }
+    ]
+   },
+   {
+    "name": "달 달 함 : SWEET",
+    "children": [
+      {
+        "name": "BROWN SUGAR", 
+        "children": [
+          {"name": "HONEY", "value": 100},
+          {"name": "CARAMELIZED", "value": 100},
+          {"name": "MAPLE SYRUP", "value": 100},
+          {"name": "MOLASSES", "value": 100}
+         ]
+      },
+     {"name": "VANILLA", "value": 100},
+     {"name": "VANILLIN", "value": 100},
+     {"name": "OVERALL SWEET", "value": 100},
+     {"name": " SWEET AROMATICS", "value": 100}
+    ]
+   }
+  ]
+ }
