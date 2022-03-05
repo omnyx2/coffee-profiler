@@ -1,0 +1,116 @@
+{
+  "pageProps": {
+    "query": {
+      "id": "1052"
+    },
+    "__APOLLO_STATE__": {
+      "Bean:456": {
+        "id": "456",
+        "__typename": "Bean",
+        "name": "콜롬비아 산탄데르 따비 무산소 내추럴",
+        "country": "콜롬비아",
+        "variety": "따비",
+        "region": "카우카",
+        "subregion": "산탄데르",
+        "farm": "라 프라데라",
+        "farmNote": null,
+        "grade": null,
+        "elevation": null,
+        "process": "AnaerobicFermentation",
+        "processLabel": "무산소 발효"
+      },
+      "Seller:24": {
+        "id": "24",
+        "__typename": "Seller",
+        "introduce": " Barista's Choices, BACS는, 여러분들에게 맛있는 커피 한 잔으로 즐겁고 행복한 하루를 선물하기 위해 탄생한 브랜드입니다. \n\n서초동의 작은 로스터리 카페에서 출발한지 약 10년, 세월속에 녹아든 경험과 실력을 바탕으로 바리스타가 선택한 최고의 커피를 소개드립니다. ",
+        "address": "서울 서초구 서초대로 397 104호",
+        "socials": {
+          "website": "https://www.bacsroastery.com/",
+          "instagram": "bacsroastery"
+        },
+        "wallImages": [
+          { "__ref": "Image:194" },
+          { "__ref": "Image:195" },
+          { "__ref": "Image:193" }
+        ],
+        "awards": [],
+        "shippingConditions": [
+          {
+            "__typename": "ShippingCondition",
+            "origin": "Koke",
+            "price": 3000,
+            "freeOrderPrice": 30000,
+            "jejuPrice": null,
+            "islandPrice": null
+          },
+          {
+            "__typename": "ShippingCondition",
+            "origin": "Biz",
+            "price": 3000,
+            "freeOrderPrice": 100000,
+            "jejuPrice": null,
+            "islandPrice": null
+          }
+        ],
+        "name": "BACS ",
+        "grindingSupported": true,
+        "logo": { "__ref": "Image:192" }
+      },
+      "Image:712": {
+        "id": "712",
+        "__typename": "Image",
+        "urls": {
+          "origin": "https://d3jfjcd8dl9mjz.cloudfront.net/ae3-ZjLsV3PMWaVza6QE0Vbmtss=/s3.ap-northeast-2.amazonaws.com/koke-uploads/images/20220106/84f4e853cf6848c280a95e72d69b5e01.png",
+          "200x200": "https://d3jfjcd8dl9mjz.cloudfront.net/K63nJAOwtKML7xO5jVWQ4YnvxwI=/200x200/s3.ap-northeast-2.amazonaws.com/koke-uploads/images/20220106/84f4e853cf6848c280a95e72d69b5e01.png",
+          "300x300": "https://d3jfjcd8dl9mjz.cloudfront.net/vKcDzmpiPfyPnJMLXs2MxLhPQvw=/300x300/s3.ap-northeast-2.amazonaws.com/koke-uploads/images/20220106/84f4e853cf6848c280a95e72d69b5e01.png",
+          "400x400": "https://d3jfjcd8dl9mjz.cloudfront.net/DWo_kOneQbURqpdgw_dHmIAywFo=/400x400/s3.ap-northeast-2.amazonaws.com/koke-uploads/images/20220106/84f4e853cf6848c280a95e72d69b5e01.png",
+          "650x650": "https://d3jfjcd8dl9mjz.cloudfront.net/x8aGyax9rlheqj4WycyDtwPyPYM=/650x650/s3.ap-northeast-2.amazonaws.com/koke-uploads/images/20220106/84f4e853cf6848c280a95e72d69b5e01.png"
+        }
+      },
+      "Product:1052": {
+        "id": "1052",
+        "__typename": "Product",
+        "name": "콜롬비아 따비 무산소 내추럴",
+        "categoryCode": "0102",
+        "packageImage": { "__ref": "Image:712" },
+        "seller": { "__ref": "Seller:24" },
+        "coffeeDesc": {
+          "__typename": "CoffeeDesc",
+          "characters": ["상큼", "과일", "화사한"],
+          "features": [],
+          "roastingDays": [],
+          "acidity": 5,
+          "roastLevel": "LightMedium",
+          "brewingMethods": ["HandDrip", "FrenchPress", "AeroPress"],
+          "variations": ["Black"]
+        },
+        "subscriptionScheduledCount": 0,
+        "beans": [{ "__ref": "Bean:456" }],
+        "note": "콜롬비아의 '따비(Tabi)' 품종은 그 이름만큼 향미도 독특한 커피입니다. 강렬한 새콤함과 스파이시한 단맛이 특징이며, 패션후르츠, 케일주스, 크랜베리의 노트를 갖고 있습니다. 산소를 차단시킨 채 커피를 발효하는 무산소 공법을 거쳐 더더욱 개성이 강한 커피입니다.",
+        "essentialNotice": "- 식품의 유형: 볶은커피\n- 제조원 및 소재지: 카페클라라, 서울 서초구 효령로 74길 36\n- 유통기한: 제조일로부터 10개월\n- 제조일자: 별도 표기\n- 내용량: 200g\n- 보관 방법: -\n- 원재료 및 함량: 콜롬비아 100%\n- 제품문의 관련 주소 및 전화번호: 코케 고객센터 070-4647-1868",
+        "status": "Temp",
+        "category": {
+          "__typename": "Category",
+          "code": "0102",
+          "name": "싱글오리진"
+        },
+        "retailOffer": { "__ref": "Offer:746" }
+      },
+      "Offer:746": {
+        "id": "746",
+        "__typename": "Offer",
+        "name": "200g",
+        "price": 19000,
+        "size": 200,
+        "product": { "__ref": "Product:1052" }
+      },
+      "ROOT_QUERY": {
+        "__typename": "Query",
+        "product({\"id\":\"1052\"})": { "__ref": "Product:1052" }
+      }
+    }
+  },
+  "__N_SSP": true
+}
+
+/// 질문사항
