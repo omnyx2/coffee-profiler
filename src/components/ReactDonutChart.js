@@ -19,7 +19,7 @@ function ReactDonutChart(props) {
   const [selectedNodeTree, setSelectedNodeTree] = useState({});
   const svgRef = useRef(null);
 
-  const width = 932;
+  const width = 800;
   const radius = width / 8;
   const format = d3.format(",d");
 

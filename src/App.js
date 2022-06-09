@@ -38,7 +38,7 @@ function App({props}) {
 
   return (
     <>
-      <div>
+      <div style={{ Width: "10%"}}>
         {/* <DonutChart data={donutData}/> */}
         <ReactDonutChart data={testData}/>
       </div>
